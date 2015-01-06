@@ -89,8 +89,8 @@ Returns a new event which, when the original event fires a value, fires
 
 
 <h4><pre>
-reduce(event, initial, fn)
-event.reduce(initial, fn)
+fold(event, initial, fn)
+event.fold(initial, fn)
 </pre></h4>
 
 Returns a new event which keeps an internal value, initialized to the given
